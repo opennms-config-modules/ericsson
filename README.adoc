@@ -18,6 +18,7 @@ git clone https://github.com/opennms-config-modules/ericsson.git
 [source, bash]
 ----
 cp ${HOME}/opennms-config-workspace/ericsson/datacollection/*.xml ${OPENNMS_HOME}/etc/datacollection
+cp ${HOME}/opennms-config-workspace/ericsson/resource-types.d/*.xml ${OPENNMS_HOME}/etc/resource-types.d
 ----
 
 .Include in datacollection-config.xml
